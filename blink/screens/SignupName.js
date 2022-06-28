@@ -4,7 +4,7 @@ import { useFonts } from 'expo-font';
 
 
 
-export default function App() {
+export default function SignupName() {
 
   const [loaded] = useFonts({
     'DMSans-Black': require('./assets/fonts/DMSans-Bold.ttf'),

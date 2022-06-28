@@ -4,7 +4,7 @@ import { useFonts } from 'expo-font';
 
 
 
-export default function App() {
+export default function SignupPassword() {
 
   const [loaded] = useFonts({
     'DMSans-Black': require('./assets/fonts/DMSans-Bold.ttf'),
@@ -47,10 +47,10 @@ const Button = (props) => {
     <View style={styles.container1}>
     <View style={styles.inputcontainer}>
       
-    <Text style={styles.h1text}>Enter your Email</Text>
+    <Text style={styles.h1text}>Create a password</Text>
       <Input 
       style={styles.input}
-      placeholder="Email"
+      placeholder="Password"
       textColor="#FFFFFF90"
       />
       </View>
