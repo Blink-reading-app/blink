@@ -140,7 +140,7 @@ const SECTIONS = [
   },
 ];
 
-export default function HomepageList() {
+export default function homePageTab2() {
 
 //fonts
   const [loaded] = useFonts({
