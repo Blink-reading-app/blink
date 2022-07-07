@@ -20,8 +20,6 @@ const Item = ({ title }) => (
 
 
 
-
-
 export default function LiveNews () {
 
   const [loaded] = useFonts({
